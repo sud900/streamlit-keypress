@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="streamlit-keypress",
-    version="0.1.1",
+    version="0.1.2",
     author="Sudarsan",
     author_email="sudarsan900@gmail.com",
     description="A Streamlit component to capture keyboard events",
@@ -22,8 +22,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.9",
     install_requires=[
-        "streamlit>=1.0.0",
+        "streamlit>=1.59.0",
     ],
 )
